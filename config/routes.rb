@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "/welcome_path" => "welcomes#hello_method"
   get "/about_path" => "welcomes#about_method"
   get "help_path" => "welcomes#help_method"
+  get "toy_car" => "products#toy_car"
 end
