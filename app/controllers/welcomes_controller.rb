@@ -6,4 +6,8 @@ class WelcomesController < ApplicationController
   def about_method
     render json: { message: "Learn all about me!" }
   end
+
+  def help_method
+    render json: { message: "Help here!" }
+  end
 end

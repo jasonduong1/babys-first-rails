@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "/welcome_path" => "welcomes#hello_method"
   get "/about_path" => "welcomes#about_method"
+  get "help_path" => "welcomes#help_method"
 end
